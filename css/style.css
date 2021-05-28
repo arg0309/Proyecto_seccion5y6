@@ -124,6 +124,7 @@ body, main{
 .container-footer .filter .row-1 .col-31:nth-child(1) img{
     width: 40%;
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 .container-footer .filter .row-1 .col-31:nth-child(1) p{
     font-family: Arial, Helvetica, sans-serif;
@@ -228,12 +229,10 @@ body, main{
     .container6 .row-0 .col-51:nth-child(1){
         margin: 0 auto;
         width: 70%;
-        /* background-color: aqua; */
     }
     .container6 .row-0 .col-51:nth-child(2){
         margin: 0 auto;
         width: 70%;
-        /* background-color: aqua; */
     }
     .container-footer{
         height: 100%;
@@ -253,6 +252,19 @@ body, main{
         padding-bottom: 30px;
         margin-top: 40px;
     }
+    .container-footer .filter .row-1 .col-31:nth-child(1){
+        width: 60%;
+    }
+    .container-footer .filter .row-1 .col-31:nth-child(1) img{
+        width: 40%;
+        height: 40%;
+    }
+    .container-footer .filter .row-1 .col-31:nth-child(2){
+        width: 60%;
+    }
+    .container-footer .filter .row-1 .col-31:nth-child(3){
+        width: 60%;
+    }
 }
 
 @media (max-width:480px) {
@@ -262,20 +274,40 @@ body, main{
     .container-footer{
         height: auto;
     }
-
     .container-footer .filter{
         height: auto;
     }
-    .container-footer .filter .row-1{
-        display: flex;
+    .container-footer .filter .row-1 .col-31:nth-child(1){
+        width: 80%;
     }
-    .container-footer .filter .row-1 .col-31{
-        width: 100%;
+    .container-footer .filter .row-1 .col-31:nth-child(1) img{
+        width: 40%;
+        height: 40%;
     }
-    /* .container-footer .filter .row-1 .col-31:nth-child(2){
-        /* display: flex;
-        flex-direction: column; 
-        text-align: center;
-        align-items: center;
-    }*/
+    .container-footer .filter .row-1 .col-31:nth-child(2){
+        width: 80%;
+    }
+} 
+
+@media (max-width:370px){
+    .container6 .row-0 .col-51:nth-child(2) form .form-group:nth-child(2) input{
+        font-size: 0.7em;
+    }
+    .container-footer{
+        height: auto;
+    }
+    .container-footer .filter{
+        height: auto;
+    }
+    .container-footer .filter .row-1 .col-31:nth-child(1){
+        width: 80%;
+    }
+    .container-footer .filter .row-1 .col-31:nth-child(1) img{
+        width: 40%;
+        height: 40%;
+    }
+    .container-footer .filter .row-1 .col-31:nth-child(2){
+        width: 80%;
+    }
+    
 } 
